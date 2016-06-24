@@ -1,0 +1,25 @@
+{
+  "name": "cravelight/phpunit-helpers",
+  "type": "library",
+  "description": "Helpers and extensions for PHPUnit",
+  "keywords": ["phpunit"],
+  "homepage": "https://github.com/cravelight/phpunit-helpers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cravelight",
+      "email": "cravelight@gmail.com",
+      "homepage": "https://github.com/cravelight"
+    }
+  ],
+  "autoload": {
+    "psr-4" : {
+      "Cravelight\\PhpUnit\\" : "src/"
+    }
+  },
+  "require-dev": {
+    "php": "^7.0",
+    "phpunit/phpunit": "^5.3",
+    "illuminate/database": "^5.2"
+  }
+}
